@@ -1,0 +1,12 @@
+[package]
+name = "mycalculator"
+version = "0.1.0"
+authors = ["Faisal Shahzad <faisal.rwp@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+libinput={path="../libinput"}
+libinfo={path="../libinfo"}
+libcalc={path="../libcalc"}
